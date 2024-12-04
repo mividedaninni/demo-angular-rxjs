@@ -8,8 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "start": "npm-run-all -p server start",
-    "server": "json-server --watch server/db.json",
+    "start": "npm-run-all -p backend serve",
+    "backend": "json-server --watch server/db.json",
     "format": "prettier \"**/*\" --write --ignore-unknown"
   },
   "private": true,
