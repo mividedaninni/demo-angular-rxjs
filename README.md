@@ -16,7 +16,7 @@ npm run start
 Otherwise, you could run separately:
 
 ```bash
-npm run server
+npm run backend
 
 ng serve
 ```

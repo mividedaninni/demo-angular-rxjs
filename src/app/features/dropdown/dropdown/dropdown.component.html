@@ -1,0 +1,4 @@
+<button (click)="toggleVisibility()">Test</button>
+<ng-container *ngIf="isMenuVisible">
+  <app-dropdown-menu (_myOutput)="test($event)"></app-dropdown-menu>
+</ng-container>
